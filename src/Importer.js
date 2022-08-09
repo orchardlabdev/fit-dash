@@ -11,8 +11,8 @@ export async function parseFitFile(file) {
       // Create a FitParser instance (options argument is optional)
       var fitParser = new FitParser({
         force: true,
-        speedUnit: "m/h",
-        lengthUnit: "m",
+        speedUnit: "mph",
+        lengthUnit: "mi",
         temperatureUnit: "kelvin",
         elapsedRecordField: true,
         mode: "cascade",

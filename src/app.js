@@ -2,7 +2,7 @@ import { parseFitFile } from "./Importer.js";
 import { readdirSync } from "fs";
 
 (async () => {
-  const folderToStart = "./fit-files/strava";
+  const folderToStart = "./fit-files/HealthFit";
   // parse all the files
   const files = readdirSync(folderToStart)
     .filter((file) => {
@@ -15,3 +15,8 @@ import { readdirSync } from "fs";
     console.log(result);
   }
 })();
+
+// problems:
+// './fit-files/movescount/Move_2015_11_24_07_48_20_Running.fit'
+
+// this file do not have record
