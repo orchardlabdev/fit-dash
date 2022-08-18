@@ -1,0 +1,6 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {},
+  "include": ["src", "src/models/common/global.d.ts"],
+  "exclude": ["node_modules"],
+}
